@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\IProductCheckOut.cs" />
+    <Compile Include="Model\PricingRules.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\PriceingItems.cs" />
+    <Compile Include="Service\ProductCheckOutService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
